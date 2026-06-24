@@ -388,12 +388,13 @@ color:#c0392b;
     }
 
     .hero-image img{
-        width:75%;
-        max-width:320px;
-        height:auto;
-        display:block;
-        margin:20px auto 0;
-    }
+    width:75%;
+    max-width:320px;
+    height:auto;
+    display:block;
+    margin:20px auto 0;
+    transform:translateX(-20px);
+}
 
     .hero-buttons{
         display:flex;
