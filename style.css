@@ -268,8 +268,21 @@ color:#c0392b;
 
 
 nav{
-    padding:15px 20px;
+padding:15px 20px;
+flex-direction:column;
+gap:15px;
 }
+
+ul{
+gap:15px;
+flex-wrap:wrap;
+justify-content:center;
+}
+
+ul a{
+font-size:16px;
+}
+
 
 .logo{
     width:60px;
@@ -317,8 +330,6 @@ nav{
     height:auto;
     display:block;
     margin:20px auto 0;
-    position: relative;
-    left: -22px;
 }
 
 .hero-buttons{
@@ -329,7 +340,8 @@ nav{
 }
 
 .btn-primary,
-.btn-secondary{
+.btn-secondary,
+.social-btn{
     width:220px;
     justify-content:center;
 }
@@ -341,5 +353,15 @@ nav{
     font-size:18px;
 }
 
+ul a:hover{
+color:#c0392b;
+transition:0.3s;
+}
+
+ul li{
+list-style:none;
+}
 
 }
+
+
